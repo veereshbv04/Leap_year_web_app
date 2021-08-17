@@ -5,10 +5,10 @@
 }
 
 body{
-    font-family:'Amatic SC', cursive;
+    font-family:'Amatic SC';
     margin: 0rem;
     /* background-image: image(); */
-   
+   background-color: rgb(248, 171, 6);
     
 }
 
