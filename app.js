@@ -17,7 +17,9 @@ checkButton.addEventListener("click",(e)=>{
     console.log("cliked");
    
     const dateString = (date.value).split('-');
-    var year = Number(dateString[2]);
+    var year = Number(dateString[0]);
+    console.log(dateString)
+    console.log(year);
    
     
     if(year%400 === 0){
